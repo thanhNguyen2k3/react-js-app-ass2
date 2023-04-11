@@ -1,0 +1,23 @@
+.board {
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+    gap: 10px;
+}
+
+.board_item {
+    width: 60px;
+    height: 60px;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+.active {
+    background-color: #333;
+    color: #fff;
+}
